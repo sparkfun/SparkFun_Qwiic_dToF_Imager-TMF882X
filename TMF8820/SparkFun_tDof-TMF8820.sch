@@ -24110,10 +24110,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R6" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
-<part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="LED"/>
+<part name="LED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="LED"/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1" value="I2C_PU"/>
+<part name="I2C" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1" value="I2C_PU"/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
@@ -24198,9 +24198,8 @@ pull up resistors.</text>
 <attribute name="NAME" x="176.911" y="130.048" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="182.245" y="130.048" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="JP2" gate="G$1" x="180.34" y="157.48" smashed="yes" rot="R90">
+<instance part="LED" gate="G$1" x="180.34" y="157.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="177.8" y="162.56" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="177.8" y="154.94" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 <instance part="GND8" gate="1" x="180.34" y="124.46" smashed="yes">
 <attribute name="VALUE" x="180.34" y="124.206" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -24208,9 +24207,8 @@ pull up resistors.</text>
 <instance part="SUPPLY9" gate="G$1" x="180.34" y="165.1" smashed="yes">
 <attribute name="VALUE" x="180.34" y="167.894" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
-<instance part="JP4" gate="G$1" x="213.36" y="157.48" smashed="yes" rot="R270">
+<instance part="I2C" gate="G$1" x="213.36" y="157.48" smashed="yes" rot="R270">
 <attribute name="NAME" x="208.28" y="160.401" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="210.82" y="154.559" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="SUPPLY10" gate="G$1" x="213.36" y="165.1" smashed="yes">
 <attribute name="VALUE" x="213.36" y="167.894" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -24239,13 +24237,13 @@ pull up resistors.</text>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="LED" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="162.56" x2="180.34" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
-<pinref part="JP4" gate="G$1" pin="2"/>
+<pinref part="I2C" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="165.1" x2="213.36" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -24330,7 +24328,7 @@ pull up resistors.</text>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="LED" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="149.86" x2="180.34" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -24338,13 +24336,13 @@ pull up resistors.</text>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="154.94" x2="205.74" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="G$1" pin="3"/>
+<pinref part="I2C" gate="G$1" pin="3"/>
 <wire x1="205.74" y1="157.48" x2="208.28" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="JP4" gate="G$1" pin="1"/>
+<pinref part="I2C" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="157.48" x2="220.98" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="157.48" x2="220.98" y2="154.94" width="0.1524" layer="91"/>

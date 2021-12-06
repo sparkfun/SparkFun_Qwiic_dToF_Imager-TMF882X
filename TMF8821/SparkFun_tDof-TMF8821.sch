@@ -24319,7 +24319,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TMF8820" prefix="U">
+<deviceset name="TMF8821">
 <gates>
 <gate name="G$1" symbol="TMF882X" x="-6.35" y="-5.08"/>
 </gates>
@@ -24337,7 +24337,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="IC-16432" constant="no"/>
+<attribute name="PROD_ID" value="IC-16433" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -24632,7 +24632,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="I2C" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1" value="I2C_PU"/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="U$1" library="TMF882X" deviceset="TMF8820" device="-"/>
+<part name="U$1" library="TMF882X" deviceset="TMF8821" device="-"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
@@ -24661,7 +24661,7 @@ remove LED.</text>
 <text x="218.44" y="160.02" size="1.778" layer="97" font="vector">Cut traces to remove 
 pull up resistors.</text>
 <text x="168.148" y="11.176" size="2.54" layer="94" font="vector">Elias Santistevan</text>
-<text x="73.66" y="175.26" size="2.54" layer="94" font="vector" align="center">Distance Time of Flight Sensor: TMF8820</text>
+<text x="73.66" y="175.26" size="2.54" layer="94" font="vector" align="center">Distance Time of Flight Sensor: TMF8821</text>
 <wire x1="0" y1="104.14" x2="144.78" y2="104.14" width="0.2032" layer="97" style="longdash"/>
 <wire x1="144.78" y1="104.14" x2="248.92" y2="104.14" width="0.2032" layer="97" style="longdash"/>
 <wire x1="144.78" y1="185.42" x2="144.78" y2="104.14" width="0.2032" layer="97" style="longdash"/>

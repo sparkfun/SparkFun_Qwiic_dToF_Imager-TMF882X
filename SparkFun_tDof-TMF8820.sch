@@ -24279,24 +24279,25 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="TMF882X">
 <packages>
 <package name="TMF882X">
-<smd name="P1" x="-0.762" y="2.032" dx="0.5" dy="0.35" layer="1"/>
-<smd name="P2" x="-0.762" y="1.212" dx="0.5" dy="0.35" layer="1"/>
-<smd name="P3" x="-0.762" y="0.392" dx="0.5" dy="0.35" layer="1"/>
-<smd name="P4" x="-0.762" y="-0.428" dx="0.5" dy="0.35" layer="1"/>
-<smd name="P5" x="-0.762" y="-1.248" dx="0.5" dy="0.35" layer="1"/>
-<smd name="P6" x="-0.762" y="-2.068" dx="0.5" dy="0.35" layer="1"/>
-<smd name="P7" x="0.588" y="-2.068" dx="0.5" dy="0.35" layer="1"/>
-<smd name="P8" x="0.588" y="-1.248" dx="0.5" dy="0.35" layer="1"/>
-<smd name="P9" x="0.588" y="-0.428" dx="0.5" dy="0.35" layer="1"/>
-<smd name="P10" x="0.588" y="0.392" dx="0.5" dy="0.35" layer="1"/>
-<smd name="P11" x="0.588" y="1.212" dx="0.5" dy="0.35" layer="1"/>
-<smd name="P12" x="0.588" y="2.032" dx="0.5" dy="0.35" layer="1"/>
-<text x="-1.7272" y="2.5654" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.9812" y="-3.2512" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<wire x1="-1.0414" y1="-2.3114" x2="0.8636" y2="-2.3114" width="0.127" layer="51"/>
-<wire x1="0.8636" y1="-2.3114" x2="0.8636" y2="2.2606" width="0.127" layer="51"/>
-<wire x1="0.8636" y1="2.2606" x2="-1.0414" y2="2.2606" width="0.127" layer="51"/>
-<wire x1="-1.0414" y1="2.2606" x2="-1.0414" y2="-2.3114" width="0.127" layer="51"/>
+<smd name="P1" x="-0.6858" y="2.032" dx="0.5" dy="0.35" layer="1"/>
+<smd name="P2" x="-0.6858" y="1.212" dx="0.5" dy="0.35" layer="1"/>
+<smd name="P3" x="-0.6858" y="0.392" dx="0.5" dy="0.35" layer="1"/>
+<smd name="P4" x="-0.6858" y="-0.428" dx="0.5" dy="0.35" layer="1"/>
+<smd name="P5" x="-0.6858" y="-1.248" dx="0.5" dy="0.35" layer="1"/>
+<smd name="P6" x="-0.6858" y="-2.068" dx="0.5" dy="0.35" layer="1"/>
+<smd name="P7" x="0.6642" y="-2.068" dx="0.5" dy="0.35" layer="1"/>
+<smd name="P8" x="0.6642" y="-1.248" dx="0.5" dy="0.35" layer="1"/>
+<smd name="P9" x="0.6642" y="-0.428" dx="0.5" dy="0.35" layer="1"/>
+<smd name="P10" x="0.6642" y="0.392" dx="0.5" dy="0.35" layer="1"/>
+<smd name="P11" x="0.6642" y="1.212" dx="0.5" dy="0.35" layer="1"/>
+<smd name="P12" x="0.6642" y="2.032" dx="0.5" dy="0.35" layer="1"/>
+<text x="-1.0414" y="2.4638" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.016" y="-3.0226" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<wire x1="-0.9652" y1="-2.3114" x2="0.9398" y2="-2.3114" width="0.127" layer="51"/>
+<wire x1="0.9398" y1="-2.3114" x2="0.9398" y2="2.2606" width="0.127" layer="51"/>
+<wire x1="0.9398" y1="2.2606" x2="-0.9652" y2="2.2606" width="0.127" layer="51"/>
+<wire x1="-0.9652" y1="2.2606" x2="-0.9652" y2="-2.3114" width="0.127" layer="51"/>
+<circle x="-1.3462" y="2.7178" radius="0.26150625" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -24318,7 +24319,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TMF8820">
+<deviceset name="TMF8820" prefix="U">
 <gates>
 <gate name="G$1" symbol="TMF882X" x="-6.35" y="-5.08"/>
 </gates>
@@ -24747,8 +24748,8 @@ pull up resistors.</text>
 <attribute name="VALUE" x="213.36" y="167.894" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="U$1" gate="G$1" x="99.06" y="129.54" smashed="yes">
-<attribute name="NAME" x="90.424" y="138.176" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="90.17" y="119.38" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="88.9" y="137.668" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="88.9" y="119.38" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C1" gate="G$1" x="25.4" y="129.54" smashed="yes">
 <attribute name="NAME" x="26.924" y="132.461" size="1.778" layer="95" font="vector"/>

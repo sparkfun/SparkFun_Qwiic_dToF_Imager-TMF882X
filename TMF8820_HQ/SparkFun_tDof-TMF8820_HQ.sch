@@ -4026,6 +4026,7 @@ pull up resistors.</text>
 <wire x1="144.78" y1="185.42" x2="144.78" y2="104.14" width="0.2032" layer="97" style="longdash"/>
 <text x="58.42" y="165.1" size="1.778" layer="97" font="vector">VCC Range: 2.7V - 3.3V
 I/O VCC Range: 1.62V - 3.3V</text>
+<text x="83.82" y="111.76" size="1.778" layer="97" font="vector">Default Addres: 0x41</text>
 </plain>
 <instances>
 <instance part="FD5" gate="G$1" x="243.84" y="30.48" smashed="yes"/>

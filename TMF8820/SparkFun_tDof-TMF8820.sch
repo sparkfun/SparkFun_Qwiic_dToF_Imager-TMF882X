@@ -24609,7 +24609,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="H5" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="H6" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
-<part name="H7" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="H8" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="J4" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
@@ -24683,7 +24682,6 @@ I/O VCC Range: 1.62V - 3.3V</text>
 </instance>
 <instance part="H5" gate="G$1" x="233.68" y="27.94" smashed="yes"/>
 <instance part="H6" gate="G$1" x="233.68" y="30.48" smashed="yes"/>
-<instance part="H7" gate="G$1" x="236.22" y="30.48" smashed="yes"/>
 <instance part="H8" gate="G$1" x="236.22" y="27.94" smashed="yes"/>
 <instance part="J4" gate="G$1" x="68.58" y="66.04" smashed="yes">
 <attribute name="VALUE" x="53.34" y="60.706" size="1.778" layer="96" font="vector" align="top-left"/>

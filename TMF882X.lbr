@@ -102,12 +102,12 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TMF8820" prefix="U">
+<deviceset name="TMF882X" prefix="U">
 <gates>
 <gate name="G$1" symbol="TMF882X" x="-6.35" y="-5.08"/>
 </gates>
 <devices>
-<device name="-" package="TMF882X">
+<device name="_TMF8820" package="TMF882X">
 <connects>
 <connect gate="G$1" pin="!INT!" pad="P4"/>
 <connect gate="G$1" pin="EN" pad="P9"/>
@@ -124,14 +124,7 @@
 </technology>
 </technologies>
 </device>
-</devices>
-</deviceset>
-<deviceset name="TMF8821">
-<gates>
-<gate name="G$1" symbol="TMF882X" x="-6.35" y="-5.08"/>
-</gates>
-<devices>
-<device name="-" package="TMF882X">
+<device name="_TMF8821" package="TMF882X">
 <connects>
 <connect gate="G$1" pin="!INT!" pad="P4"/>
 <connect gate="G$1" pin="EN" pad="P9"/>

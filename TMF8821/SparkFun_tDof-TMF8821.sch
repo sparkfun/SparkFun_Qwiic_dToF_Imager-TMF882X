@@ -24319,12 +24319,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TMF8821">
+<deviceset name="TMF882X" prefix="U">
 <gates>
 <gate name="G$1" symbol="TMF882X" x="-6.35" y="-5.08"/>
 </gates>
 <devices>
-<device name="-" package="TMF882X">
+<device name="_TMF8820" package="TMF882X">
+<connects>
+<connect gate="G$1" pin="!INT!" pad="P4"/>
+<connect gate="G$1" pin="EN" pad="P9"/>
+<connect gate="G$1" pin="GND" pad="P2 P8 P11"/>
+<connect gate="G$1" pin="GPIO0" pad="P3"/>
+<connect gate="G$1" pin="GPIO1" pad="P10"/>
+<connect gate="G$1" pin="SCL" pad="P5"/>
+<connect gate="G$1" pin="SDA" pad="P6"/>
+<connect gate="G$1" pin="VCC" pad="P1 P7 P12"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-16432" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_TMF8821" package="TMF882X">
 <connects>
 <connect gate="G$1" pin="!INT!" pad="P4"/>
 <connect gate="G$1" pin="EN" pad="P9"/>
@@ -24609,7 +24626,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="H5" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="H6" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
-<part name="H7" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="H8" library="SparkFun-Hardware" deviceset="STAND-OFF" device="TIGHT"/>
 <part name="J4" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
@@ -24632,7 +24648,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="I2C" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39289/1" value="I2C_PU"/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="U$1" library="TMF882X" deviceset="TMF8821" device="-"/>
+<part name="U$1" library="TMF882X" deviceset="TMF882X" device="_TMF8821" value="TMF882X_TMF8821"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
@@ -24667,6 +24683,7 @@ pull up resistors.</text>
 <wire x1="144.78" y1="185.42" x2="144.78" y2="104.14" width="0.2032" layer="97" style="longdash"/>
 <text x="58.42" y="165.1" size="1.778" layer="97" font="vector">VCC Range: 2.7V - 3.3V
 I/O VCC Range: 1.62V - 3.3V</text>
+<text x="58.42" y="157.48" size="1.778" layer="97" font="vector">Default Address: 0x41</text>
 </plain>
 <instances>
 <instance part="FD5" gate="G$1" x="243.84" y="30.48" smashed="yes"/>
@@ -24683,7 +24700,6 @@ I/O VCC Range: 1.62V - 3.3V</text>
 </instance>
 <instance part="H5" gate="G$1" x="233.68" y="27.94" smashed="yes"/>
 <instance part="H6" gate="G$1" x="233.68" y="30.48" smashed="yes"/>
-<instance part="H7" gate="G$1" x="236.22" y="30.48" smashed="yes"/>
 <instance part="H8" gate="G$1" x="236.22" y="27.94" smashed="yes"/>
 <instance part="J4" gate="G$1" x="68.58" y="66.04" smashed="yes">
 <attribute name="VALUE" x="53.34" y="60.706" size="1.778" layer="96" font="vector" align="top-left"/>

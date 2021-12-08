@@ -5806,9 +5806,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="19,16,85c66711294b4c21"/>
-<approved hash="19,16,6d69f30b7411cd68"/>
-<approved hash="19,16,09473c1c67c3302f"/>
+<approved hash="19,16,f121a7095b96bcc0"/>
+<approved hash="19,16,ca9bfc51ab8a167a"/>
+<approved hash="19,16,52369b65f8e4b7d2"/>
 </errors>
 </board>
 </drawing>

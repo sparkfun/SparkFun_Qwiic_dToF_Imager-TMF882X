@@ -7,8 +7,8 @@ SparkFun Qwiic dTof TMF882X
    <td><a href="https://www.sparkfun.com/products/19037"><img src="" alt="Qwiic dToF TMF8821"></a></td>
   </tr>
   <tr align="center">
-   <td><i>[<a href="https://www.sparkfun.com/products/19036">SEN-19036</a>]</i></td>
-   <td><i>[<a href="https://www.sparkfun.com/products/19037">SEN-19036</a>]</i></td>
+   <td><i>Qwiic dToF TMF8820 [ <a href="https://www.sparkfun.com/products/19036">SEN-19036</a> ]</i></td>
+   <td><i>Qwiic dToF TMF8821 [ <a href="https://www.sparkfun.com/products/19037">SEN-19036</a> ]</i></td>
   </tr>
 </table>
 

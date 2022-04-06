@@ -3,16 +3,16 @@ SparkFun Qwiic dTof Imager TMF882X
 
 <table class="table table-hover table-striped table-bordered">
   <tr align="center">
-   <td><a href="https://www.sparkfun.com/products/19036"><img src="" alt="Qwiic dToF TMF8820"></a></td>
-   <td><a href="https://www.sparkfun.com/products/19218"><img src="" alt="Qwiic dToF TMF8820"></a></td>
-   <td><a href="https://www.sparkfun.com/products/19037"><img src="" alt="Qwiic dToF TMF8821"></a></td>
-   <td><a href="https://www.sparkfun.com/products/19451"><img src="" alt="Qwiic dToF TMF8821"></a></td>
+   <td><a href="https://www.sparkfun.com/products/19036"><img src="" alt="Qwiic dToF Imager TMF8820"></a></td>
+   <td><a href="https://www.sparkfun.com/products/19036"><img src="" alt="Qwiic Mini dToF Imager TMF8820"></a></td>
+   <td><a href="https://www.sparkfun.com/products/19037"><img src="" alt="Qwiic dToF Imager TMF8821"></a></td>
+   <td><a href="https://www.sparkfun.com/products/19037"><img src="" alt="Qwiic Mini dToF Imager TMF8821"></a></td>
   </tr>
   <tr align="center">
-   <td><i>Qwiic dToF TMF8820 <br />[ <a href="https://www.sparkfun.com/products/19036">SEN-19036</a> ]</i></td>
-   <td><i>Qwiic Mini dToF TMF8820 <br /> [ <a href="https://www.sparkfun.com/products/19218">SEN-19218</a> ]</i></td>
-   <td><i>Qwiic dToF TMF8821 <br /> [ <a href="https://www.sparkfun.com/products/19037">SEN-19037</a> ]</i></td>
-   <td><i>Qwiic Mini dToF TMF8821 <br /> [ <a href="https://www.sparkfun.com/products/19451">SEN-19451</a> ]</i></td>
+   <td><i>Qwiic dToF Imager TMF8820 <br />[ <a href="https://www.sparkfun.com/products/19036">SEN-19036</a> ]</i></td>
+   <td><i>Qwiic Mini dToF Imager TMF8820 <br />[ <a href="https://www.sparkfun.com/products/19218">SEN-19218</a> ]</i></td>
+   <td><i>Qwiic dToF Imager TMF8821 <br />[ <a href="https://www.sparkfun.com/products/19037">SEN-19037</a> ]</i></td>
+   <td><i>Qwiic Mini dToF Imager TMF8821 <br />[ <a href="https://www.sparkfun.com/products/19451">SEN-19451</a> ]</i></td>
   </tr>
 </table>
 
@@ -28,8 +28,10 @@ Repository Contents
 
 Documentation
 --------------
+  
+* **[Installing an Arduino Library Guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library)** - Basic information on how to install an Arduino library.
 * **[Library](https://github.com/sparkfun/SparkFun_TMF882X_dToF_Arduino_Library)** - Arduino library for the Qwiic dToF TMF8820 and TMF8821.
-* **Hookup Guide** - Basic hookup guide for the TMF882X.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/2289)** - Basic hookup guide for the dToF TMF8820 and TMF8821 Sensors.
 
 Product Versions
 ----------------

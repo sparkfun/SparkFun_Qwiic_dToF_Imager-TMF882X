@@ -38,7 +38,7 @@ Product Versions
 * [SEN-19036](https://www.sparkfun.com/products/19036) - Qwiic dToF Imager TMF8820
 * [SEN-19218](https://www.sparkfun.com/products/19218) - Qwiic Mini dToF Imager TMF8820
 * [SEN-19037](https://www.sparkfun.com/products/19037) - Qwiic dToF Imager TMF8821
-* [SEN-19037](https://www.sparkfun.com/products/19451) - Qwiic Mini dToF ImagerTMF8821
+* [SEN-19451](https://www.sparkfun.com/products/19451) - Qwiic Mini dToF Imager TMF8821
 
 Version History
 ---------------
